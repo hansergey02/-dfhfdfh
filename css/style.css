@@ -347,6 +347,14 @@
   margin-bottom: 38px;
 }
 
+.admin-panel {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
 @media (max-width: 958px) {
   .consultation {
     padding-left: 10px;

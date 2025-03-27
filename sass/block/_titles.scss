@@ -1,0 +1,33 @@
+.title{
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    &_white{
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52px;
+        text-align: left;
+        text-transform: uppercase;
+        &2{
+            margin-left: 98px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 676px){
+    .title{
+        font-size: 25px;
+        line-height: 39px;
+    }
+}
+
+@media (max-width: 475px){
+    .title{
+        text-align: center;
+    }
+}
